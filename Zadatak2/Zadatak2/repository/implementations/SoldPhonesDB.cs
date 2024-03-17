@@ -9,6 +9,6 @@ namespace Zadatak2.repository.implementations
 {
     public class SoldPhonesDB
     {
-        public List<MobilePhone> SoldPhones { get; set; }
+        public List<MobilePhone>? SoldPhones { get; set; }
     }
 }

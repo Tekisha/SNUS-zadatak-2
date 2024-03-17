@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Zadatak2.Entity;
 
-namespace Zadatak2.repository
+namespace Zadatak2.repository.interfaces
 {
     public interface ISoldPhonesDBUpgrade
     {

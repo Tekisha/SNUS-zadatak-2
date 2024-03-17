@@ -10,6 +10,5 @@ namespace Zadatak2.repository.interfaces
     public interface IOwnersDBUpgrade
     {
         List<Owner> GetPrimeAgedOwners();
-
     }
 }
