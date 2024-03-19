@@ -12,7 +12,7 @@ namespace Zadatak2.repository.implementations
     {
         public List<MobilePhone> Get4GHuaweiPhones()
         {
-            throw new NotImplementedException();
+            return SoldPhones.Where(phone => phone.Manufacturer.Equals("Huawei", StringComparison.OrdinalIgnoreCase) && phone.Network.Equals("4G", StringComparison.OrdinalIgnoreCase)).ToList();
         }
     }
 }

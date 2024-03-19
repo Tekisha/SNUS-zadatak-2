@@ -9,10 +9,10 @@ namespace Zadatak2.Entity
     public class MobilePhone
     {
         public int OwnerId { get; set; }
-        public int Manufacturer { get; set; }
-        public string? Model { get; set; }
-        public string? Network { get; set; }
-        public string? OS { get; set; }
+        public required string Manufacturer { get; set; }
+        public required string Model { get; set; }
+        public required string Network { get; set; }
+        public required string OS { get; set; }
 
     }
 }

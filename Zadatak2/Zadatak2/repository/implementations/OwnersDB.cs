@@ -9,6 +9,6 @@ namespace Zadatak2.repository.implementations
 {
     public class OwnersDB
     {
-        public List<Owner>? Owners { get; set; }
+        public List<Owner> Owners { get; set; }
     }
 }

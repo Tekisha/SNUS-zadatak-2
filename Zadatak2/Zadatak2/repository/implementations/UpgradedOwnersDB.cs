@@ -12,7 +12,7 @@ namespace Zadatak2.repository.implementations
     {
         public List<Owner> GetPrimeAgedOwners()
         {
-            throw new NotImplementedException();
+            return Owners.Where(o => o.Age > 20 && o.Age < 40).ToList();
         }
     }
 }
